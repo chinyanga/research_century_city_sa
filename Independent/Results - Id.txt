@@ -1,0 +1,27 @@
+40
+[DQN][Node1][Step 20000] Avg Queue: 5.18 | Avg Wait: 70.62s | Throughput(100): 26 | Total: 5293 | Cum Avg Queue: 14.95 | Cum Avg Wait: 57.01s | ε: 0.1090 | 
+[DQN][Node2][Step 20000] Avg Queue: 9.54 | Avg Wait: 39.59s | Throughput(100): 41 | Total: 6501 | Cum Avg Queue: 16.67 | Cum Avg Wait: 46.44s | ε: 0.1090 | 
+[DQN][Node3][Step 20000] Avg Queue: 38.42 | Avg Wait: 43.27s | Throughput(100): 48 | Total: 7809 | Cum Avg Queue: 29.86 | Cum Avg Wait: 47.25s | ε: 0.1090 |
+[DQN][Node4][Step 20000] Avg Queue: 5.81 | Avg Wait: 38.53s | Throughput(100): 17 | Total: 3350 | Cum Avg Queue: 6.35 | Cum Avg Wait: 35.59s | ε: 0.1090 |
+[DQN][Node5][Step 20000] Avg Queue: 8.91 | Avg Wait: 61.12s | Throughput(100): 42 | Total: 7315 | Cum Avg Queue: 12.66 | Cum Avg Wait: 57.06s | ε: 0.1090 |
+ [GLOBAL FIXED][Step 20000] Avg Queue: 13.57 | Avg Wait: 50.62s | Throughput(100): 174 | Cum Throughput: 30268 |  Cum Co2: 17450720.609425902 | Network Throughput(100): 138 | Cum Network Throughput: 32151
+
+
+41
+[DQN][Node1][Step 20000] Avg Queue: 8.12 | Avg Wait: 56.23s | Throughput(100): 35 | Total: 5272 | Cum Avg Queue: 14.55 | Cum Avg Wait: 58.22s | ε: 0.1090 | 
+[DQN][Node2][Step 20000] Avg Queue: 13.39 | Avg Wait: 38.57s | Throughput(100): 28 | Total: 6775 | Cum Avg Queue: 16.20 | Cum Avg Wait: 47.21s | ε: 0.1090 | 
+[DQN][Node3][Step 20000] Avg Queue: 36.91 | Avg Wait: 45.58s | Throughput(100): 36 | Total: 8075 | Cum Avg Queue: 31.29 | Cum Avg Wait: 47.53s | ε: 0.1090 |
+[DQN][Node4][Step 20000] Avg Queue: 6.98 | Avg Wait: 31.24s | Throughput(100): 21 | Total: 3859 | Cum Avg Queue: 6.00 | Cum Avg Wait: 36.11s | ε: 0.1090 |
+[DQN][Node5][Step 20000] Avg Queue: 10.72 | Avg Wait: 64.63s | Throughput(100): 27 | Total: 7477 | Cum Avg Queue: 12.19 | Cum Avg Wait: 57.56s | ε: 0.1090 |
+ [GLOBAL FIXED][Step 20000] Avg Queue: 15.22 | Avg Wait: 47.25s | Throughput(100): 147 | Cum Throughput: 31458 |  Cum Co2: 17582923.449971527 | Network Throughput(100): 207 | Cum Network Throughput: 32543
+
+42
+[DQN][Node1][Step 20000] Avg Queue: 17.33 | Avg Wait: 58.07s | Throughput(100): 14 | Total: 5352 | Cum Avg Queue: 15.20 | Cum Avg Wait: 58.09s | ε: 0.1090 |
+[DQN][Node2][Step 20000] Avg Queue: 9.35 | Avg Wait: 55.38s | Throughput(100): 50 | Total: 7182 | Cum Avg Queue: 16.73 | Cum Avg Wait: 46.61s | ε: 0.1090 |
+[DQN][Node3][Step 20000] Avg Queue: 32.25 | Avg Wait: 43.61s | Throughput(100): 57 | Total: 8328 | Cum Avg Queue: 30.47 | Cum Avg Wait: 46.93s | ε: 0.1090 |
+[DQN][Node4][Step 20000] Avg Queue: 4.46 | Avg Wait: 23.13s | Throughput(100): 23 | Total: 4412 | Cum Avg Queue: 4.78 | Cum Avg Wait: 33.24s | ε: 0.1090 |
+[DQN][Node5][Step 20000] Avg Queue: 17.79 | Avg Wait: 66.21s | Throughput(100): 48 | Total: 7448 | Cum Avg Queue: 12.38 | Cum Avg Wait: 54.93s | ε: 0.1090 |
+ [GLOBAL FIXED][Step 20000] Avg Queue: 16.24 | Avg Wait: 49.28s | Throughput(100): 192 | Cum Throughput: 32722 |  Cum Co2: 17591646.57462383 | Network Throughput(100): 185 | Cum Network Throughput: 32884
+
+
+SELECT cmt.id,cmt.msg_type,cmt.F03_ProcessingCode,cmt.state_code,cmt.Transaction_Date,cmt.description,pad.ACCOUNT_ID, pad.BAN FROM card_msg_transaction cmt join cards_banking cb on cb.PAN_Number = cmt.F02_PAN join p_account_deposit pad on pad.Account_ID= cb.Account_ID WHERE cmt.Transaction_Date >= :fromDate AND cmt.Transaction_Date <= :toDate ORDER BY cmt.id DESC;

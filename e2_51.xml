@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-07-13 22:44:51 by Eclipse SUMO GUI Version 1.22.0
+<sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="C:/Users/DELL LATITUDE E7250/Desktop/Masters Research/v7/CenturyCityNode1_V1.net.xml"/>
+        <route-files value="C:/Users/DELL LATITUDE E7250/Desktop/Masters Research/v7/CenturyCityNode1_V1.rou.xml"/>
+        <additional-files value="C:/Users/DELL LATITUDE E7250/Desktop/Masters Research/v7/CenturyCityNode1_V1.add.xml"/>
+    </input>
+
+    <time>
+        <step-length value="1.0"/>
+    </time>
+
+    <processing>
+        <lateral-resolution value="0"/>
+        <ignore-junction-blocker value="2"/>
+    </processing>
+
+    <report>
+        <no-warnings value="true"/>
+    </report>
+
+    <traci_server>
+        <remote-port value="60597"/>
+    </traci_server>
+
+    <gui_only>
+        <delay value="1"/>
+    </gui_only>
+
+</sumoConfiguration>
+-->
+
+<detector xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/det_e2_file.xsd">
+   <interval begin="0.00" end="82.00" id="Node5_WB_2" sampledSeconds="86.83" nVehEntered="4" nVehLeft="2" nVehSeen="4" meanSpeed="0.50" meanTimeLoss="21.07" meanOccupancy="30.59" maxOccupancy="62.22" meanMaxJamLengthInVehicles="0.89" meanMaxJamLengthInMeters="3.34" maxJamLengthInVehicles="2" maxJamLengthInMeters="8.73" jamLengthInVehiclesSum="73" jamLengthInMetersSum="273.93" meanHaltingDuration="23.67" maxHaltingDuration="39.00" haltingDurationSum="71.00" meanIntervalHaltingDuration="23.67" maxIntervalHaltingDuration="39.00" intervalHaltingDurationSum="71.00" startedHalts="4.00" meanVehicleNumber="1.10" maxVehicleNumber="2" />
+</detector>

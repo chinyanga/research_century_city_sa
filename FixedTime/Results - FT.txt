@@ -1,0 +1,25 @@
+40
+[DQN][Node1][Step 20000] Avg Queue: 6.80 | Avg Wait: 54.35s | Throughput(100): 23 | Total: 4115 | Total Co2: 37121.275987758556 |Cum Avg Queue: 11.89 | Cum Avg Wait: 57.23s | ε: 0.0000 | 
+[DQN][Node2][Step 20000] Avg Queue: 17.25 | Avg Wait: 61.33s | Throughput(100): 3 | Total: 4701 | Total Co2: 28021.968829705696 |Cum Avg Queue: 23.30 | Cum Avg Wait: 59.98s | ε: 0.0000 | 
+[DQN][Node3][Step 20000] Avg Queue: 53.84 | Avg Wait: 67.25s | Throughput(100): 4 | Total: 4361 | Total Co2: 57367.72667009944 |Cum Avg Queue: 40.64 | Cum Avg Wait: 57.96s | ε: 0.0000 |
+[DQN][Node4][Step 20000] Avg Queue: 17.90 | Avg Wait: 94.00s | Throughput(100): 2 | Total: 4153 | Total Co2: 19433.279213202422 |Cum Avg Queue: 13.66 | Cum Avg Wait: 47.84s | ε: 0.0000 |
+[DQN][Node5][Step 20000] Avg Queue: 21.49 | Avg Wait: 64.47s | Throughput(100): 17 | Total: 3900 | Total Co2: 162253.5121118639 |Cum Avg Queue: 23.41 | Cum Avg Wait: 64.25s | ε: 0.0000 |
+ [GLOBAL FIXED][Step 20000] Avg Queue: 23.46 | Avg Wait: 68.28s | Throughput(100): 49 | Cum Throughput: 21230 |  Cum Co2: 28815884.36479311 | Network Throughput(100): 57 | Cum Network Throughput: 18309
+
+41
+[DQN][Node1][Step 20000] Avg Queue: 15.28 | Avg Wait: 43.67s | Throughput(100): 9 | Total: 3441 | Total Co2: 50963.774458698026 |Cum Avg Queue: 14.33 | Cum Avg Wait: 60.56s | ε: 0.0000 | 
+[DQN][Node2][Step 20000] Avg Queue: 43.31 | Avg Wait: 80.00s | Throughput(100): 4 | Total: 4185 | Total Co2: 34571.43487791484 |Cum Avg Queue: 26.07 | Cum Avg Wait: 59.34s | ε: 0.0000 | 
+[DQN][Node3][Step 20000] Avg Queue: 51.66 | Avg Wait: 62.00s | Throughput(100): 4 | Total: 4150 | Total Co2: 62895.221265503016 |Cum Avg Queue: 45.64 | Cum Avg Wait: 60.74s | ε: 0.0000 |
+[DQN][Node4][Step 20000] Avg Queue: 23.18 | Avg Wait: 74.00s | Throughput(100): 3 | Total: 3166 | Total Co2: 17983.993834821333 |Cum Avg Queue: 12.12 | Cum Avg Wait: 47.77s | ε: 0.0000 |
+[DQN][Node5][Step 20000] Avg Queue: 28.57 | Avg Wait: 72.00s | Throughput(100): 11 | Total: 3107 | Total Co2: 168315.961709881 |Cum Avg Queue: 23.77 | Cum Avg Wait: 65.99s | ε: 0.0000 |
+ [GLOBAL FIXED][Step 20000] Avg Queue: 32.40 | Avg Wait: 66.33s | Throughput(100): 31 | Cum Throughput: 18049 |  Cum Co2: 29785756.431041967 | Network Throughput(100): 24 | Cum Network Throughput: 12810
+
+
+42
+
+[DQN][Node1][Step 20000] Avg Queue: 20.05 | Avg Wait: 57.60s | Throughput(100): 25 | Total: 3488 | Total Co2: 37503.729959194454 |Cum Avg Queue: 13.64 | Cum Avg Wait: 59.48s | ε: 0.0000 | 
+[DQN][Node2][Step 20000] Avg Queue: 44.82 | Avg Wait: 65.07s | Throughput(100): 15 | Total: 4200 | Total Co2: 38266.44970395766 |Cum Avg Queue: 28.24 | Cum Avg Wait: 62.19s | ε: 0.0000 | 
+[DQN][Node3][Step 20000] Avg Queue: 20.49 | Avg Wait: 56.64s | Throughput(100): 14 | Total: 4405 | Total Co2: 52740.360693908966 |Cum Avg Queue: 39.07 | Cum Avg Wait: 60.92s | ε: 0.0000 |        
+[DQN][Node4][Step 20000] Avg Queue: 22.68 | Avg Wait: 67.60s | Throughput(100): 5 | Total: 3668 | Total Co2: 19069.52407810618 |Cum Avg Queue: 13.49 | Cum Avg Wait: 48.04s | ε: 0.0000 |
+[DQN][Node5][Step 20000] Avg Queue: 26.21 | Avg Wait: 69.53s | Throughput(100): 15 | Total: 3425 | Total Co2: 171356.46451213886 |Cum Avg Queue: 24.11 | Cum Avg Wait: 64.11s | ε: 0.0000 |        
+ [GLOBAL FIXED][Step 20000] Avg Queue: 26.85 | Avg Wait: 63.29s | Throughput(100): 74 | Cum Throughput: 19186 |  Cum Co2: 29772751.51780548 | Network Throughput(100): 21 | Cum Network Throughput: 14422

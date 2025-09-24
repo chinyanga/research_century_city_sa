@@ -1,0 +1,23 @@
+
+
+   Method (Seed 40)	 	         | Avg Queue | Avg Wait times | Throughput | Carbon Emission(g)
+Fixed-Time Controller (FT)		 | 22.39     |   57.45        | 21230      |   28815884.36479311 
+I-DQN (Fixed Bounds)                     | 16.10     |   48.67        | 30268      |   17450720.609425902
+I-DQN (Dynamic Bounds)                   | 15.31     |   46.16        | 35712      |   13444243.401889293
+QMIX                                     | 16.56     |   46.72        | 27780      |   27473923.827951767
+
+   Method (Seed 41)	 	         | Avg Queue | Avg Wait times  | Throughput | Carbon Emission(g)
+Fixed-Time Controller (FT)		 | 24.39     |   58.88         | 18049      |   29785756.431041967
+I-DQN (Fixed Bounds)                     | 16.05     |   49.33         | 31458      |   17582923.449971527
+I-DQN (Dynamic Bounds)                   | 15.42     |   46.75         | 34010      |   12985781.252790013
+QMIX		                         | 18.30     |   45.74         | 23705      |   26856412.96273221
+
+   Method (Seed 42)	 	         | Avg Queue | Avg Wait times | Throughput | Carbon Emission(g)
+Fixed-Time Controller (FT)		 | 23.71     |   58.95        | 19186      |   29772751.51780548
+I-DQN (Fixed Bounds)                     | 15.91     |   47.96        | 32722      |   17591646.57462383
+I-DQN (Dynamic Bounds)                   | 15.34     |   45.33        | 36721      |   13474942.463994447
+QMIX                                     | 17.63     |   48.04        | 29899      |   25720941.07173905
+
+
+
+
